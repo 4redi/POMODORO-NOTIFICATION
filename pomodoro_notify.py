@@ -11,7 +11,7 @@ def send_notification():
         timeout=15
     )
 
-def pomodoro_timer(work_time=1*60,break_time=5*60):
+def pomodoro_timer(work_time=25*60,break_time=5*60):
     print("Work has started!")
     time.sleep(work_time)
 
